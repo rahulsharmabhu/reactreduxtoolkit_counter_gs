@@ -1,20 +1,13 @@
+body{
+  background-color: #282c34;
+}
+
 .App {
+  margin: 200px 200px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +28,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+span{
+  padding: 0 10px;
+  color: #fff;
+}
+
+button {
+  cursor: pointer;
+}
+
+.coin {
+  color: #fff;
 }
